@@ -1,0 +1,39 @@
+[
+{
+    "model": "core.foodcategory",
+    "pk": 2,
+    "fields": {
+        "name": "Drinks",
+        "is_publish": true
+    }
+},
+{
+    "model": "core.food",
+    "pk": 2,
+    "fields": {
+        "name": "Smoothies",
+        "description": "Смузи 400 мл",
+        "price": 200,
+        "is_special": true,
+        "is_vegan": true,
+        "is_publish": true,
+        "category_id": 2
+    }
+},
+{
+    "model": "core.topping",
+    "pk": 2,
+    "fields": {
+        "name": "Mango",
+        "food": 2
+    }
+},
+{
+    "model": "core.topping",
+    "pk": 3,
+    "fields": {
+        "name": "Kiwi",
+        "food": 2
+    }
+}
+]
